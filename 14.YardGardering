@@ -1,0 +1,17 @@
+namespace _16.YardGardering
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            double kvMetri = double.Parse(Console.ReadLine());
+            double Price = kvMetri * 7.61;
+            double discount = 0.18 * Price;
+            double finalPrice = Price - discount;
+            Console.WriteLine($"The final price is: {finalPrice} lv.");
+            Console.WriteLine($"The discount is: {discount} lv."); 
+           
+
+        }
+    }
+}
