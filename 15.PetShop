@@ -1,0 +1,16 @@
+namespace _15.PetShop
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int packageDogs = int.Parse(Console.ReadLine());
+            int packageCats = int.Parse(Console.ReadLine());
+            double priceDogs = packageDogs * 2.50;
+            double priceCats = packageCats * 4;
+            double allPrice = priceDogs + priceCats;
+            Console.WriteLine($"{allPrice} lv.");
+
+        }
+    }
+}
